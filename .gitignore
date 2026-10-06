@@ -13,3 +13,9 @@ build/
 轨迹/
 录屏/
 视频/
+
+# 运行期数据（SQLite 库、附件、上传临时目录）
+data/
+# 前端构建产物（由 start.sh 生成）
+backend/src/main/resources/META-INF/resources/
+frontend/dist/
