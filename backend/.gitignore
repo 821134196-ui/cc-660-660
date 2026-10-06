@@ -1,0 +1,15 @@
+# 构建与运行
+target/
+!.mvn/wrapper/maven-wrapper.properties
+
+# 本地数据库与附件
+data/
+*.db
+*.db-journal
+
+# 前端
+node_modules/
+dist/
+
+# 前端构建进后端的静态产物（由 vite 生成）
+src/main/resources/META-INF/resources/
